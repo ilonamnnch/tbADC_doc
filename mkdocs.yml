@@ -1,0 +1,19 @@
+site_name: "tbADC Documentation"
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Accueil: index.md
+
+plugins:
+  - search
