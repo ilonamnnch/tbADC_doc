@@ -13,7 +13,30 @@ theme:
     - content.code.copy
 
 nav:
-  - Accueil: index.md
+  - Home: index.md
+  - Architecture: architecture.md
+  - VTC: vtc.md
+  - TDC: tdc.md
+  - System: system.md
+  - Results: results.md
+  - Conclusion: conclusion.md
+  - About : about.md
 
 plugins:
   - search
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - javascripts/mermaid.js
+
+site_author: Ilona Münnich
+site_url: https://ilonamnnch.github.io/
